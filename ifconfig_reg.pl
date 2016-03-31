@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-#use Regexp::IPv6 qw($IPv6_re);
+
 @nainfo = `ifconfig | awk '/Link encap|inet addr|inet6 addr/'`;#ifconfig output.
 print "Network Interface";
 print " "x4;
